@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Jersey+10&family=Namdhinggo:wght@400;500;600;700;800&family=New+Amsterdam&family=Nova+Square&family=Rubik+Vinyl&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Jersey+10&family=Namdhinggo:wght@400;500;600;700;800&family=New+Amsterdam&family=Nova+Square&family=Rubik+Vinyl&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Jersey+10&family=Namdhinggo:wght@400;500;600;700;800&family=New+Amsterdam&family=Nova+Square&family=Rubik+Vinyl&family=Sixtyfour&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Jersey+10&family=Namdhinggo:wght@400;500;600;700;800&family=New+Amsterdam&family=Nova+Square&family=Oswald:wght@200..700&family=Rubik+Vinyl&family=Sixtyfour&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Jersey+10&family=Namdhinggo:wght@400;500;600;700;800&family=New+Amsterdam&family=Nova+Square&family=Oswald:wght@200..700&family=Rubik+Vinyl&family=Sixtyfour&family=Tilt+Prism&display=swap');
+*{
+    background-color:#001e2b;
+   
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+h1 {
+    color: #00ed64;
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 700;
+  font-size: clamp(30px, 5vw, 50px);
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+.date_time {
+    color:white ;
+  font-family: "DM Serif Text", serif ;
+font-size: x-large;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: grid;
+  justify-content: center;
+  
+}
+span {
+    color: #00ed64;
+  font-family: "Sixtyfour", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+.set{
+    display: flex;
+    justify-content: center;
+margin-top: 30px;
+}
+.area ,option{
+    background: #00684a;
+    color: #c9f5e8;
+    width: 400px;
+    border: none;
+    border-bottom:2px solid #00ed64;
+    border-radius: 10px;
+}
+.area1{
+     background: #00684a;
+    color: #c9f5e8;
+    width: 350px;
+    border: none;
+    border-bottom:2px solid #00ed64;
+    border-radius: 10px;
+}
+.time{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #00ed64;
+    background: #00684a;
+    color: #c9f5e8;
+    border-radius: 10px;
+}
+.label {
+    color: azure;
+  font-family: "DM Sans", serif ;
+font-size:20px;
+  font-weight: 400;
+  font-style: normal;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.addmore{
+      background: #00684a;
+    color: #c9f5e8;
+    width: 60px;
+    height:30px;
+     font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  border: 2px solid #00684a ;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.label1{
+    color: #c9f5e8;
+    font-size: xx-large;
+}
+ol{
+    color: #00ed64;
+    font-size: x-large;
+    justify-items: center;
+}
+.submit{
+    background: #00684a;
+    color: #c9f5e8;
+    width: fit-content;
+    height:fit-content;
+     font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  border: 2px solid #00684a ;
+  border-radius: 10px;
+  
+}
+.submit:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.error {
+  color: rgb(246, 255, 0);
+  margin-top: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center; /* Centers the error message horizontally */
+  align-items: center; /* Centers the error message vertically */
+  margin-top: 5px;
+  width: 100%;
+  height: 20px; 
+}
+
